@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- render will be a  standard mode already 
+            supports a lot of HTML5 and CSS3 but not the 
+            full range of the specifications -->
+        <meta name="description " content="this our book store"/>
+        <title>
+            Book Store
+        </title>
+        <meta charset="UTF-8"/>
+        <style></style>
+        <script></script>
+        <link rel="" href="">
+    </head>
+    <bod>
+        <h1> Book Store</h1>
+        <form   method="post">
+            <!--label -> to define a user what to be enter-->
+            <!--input -> it's a row to get data from user-->
+            <!--type  -> it's a type of data input-->
+            <!--br    -> to break end line-->
+           <div>
+               <!--autofocus on field on entery-->
+                <label>username</label>
+                <input type="text" name="user" required placeholder="username"  value='abdeltawab'  outofocus>
+           </div>
+           <br>
+            <div>
+                <!--minlength and maxlength to constrainer of password-->
+                <label>password</label>
+                <input type="password" required placeholder name="password" minlength="2" maxlength="9" >
+            </div>
+            <br>
+            <div>
+                <!--readonly -> to read only don't be able to write-->
+                <label>color</label>
+                <input type="color" value="color" readonly>
+            </div>
+            <br>
+            <div>
+                <label>Range</label>
+                <input type="range" namae="Range" min="0" max="100" step="20" value="20">
+            </div>
+            <br>
+            <div>
+                <label>Number</label>
+                <input type="number" name="number" min="10" max="100" value="10" step="20">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" requiredplaceholder="enter your email" valu="abdowagieh@gmail.com" name ="email" disabled>
+            </div>
+            <br>
+            <input type="submit" value="save">
+            <input type="reset" value="reset">
+        </form>
+        
+    </body>
+</html>
