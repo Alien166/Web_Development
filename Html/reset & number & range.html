@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- render will be a  standard mode already 
+            supports a lot of HTML5 and CSS3 but not the 
+            full range of the specifications -->
+        <meta name="description " content="this our book store"/>
+        <title>
+            Book Store
+        </title>
+        <meta charset="UTF-8"/>
+        <style></style>
+        <script></script>
+        <link rel="" href="">
+    </head>
+    <bod>
+        <h1> Book Store</h1>
+        <p>Welcome to my page book store</p>
+        <!-- action -> it's a file will a received data-->
+        <!--method -> it's way will appear data in url-->
+        <form   method="post">
+            <!--label -> to define a user what to be enter-->
+            <!--input -> it's a row to get data from user-->
+            <!--type  -> it's a type of data input-->
+            <!--br    -> to break end line-->
+           <div>
+                <label>username</label>
+                <input type="text" required placeholder="username" name="user">
+           </div>
+           <br>
+            <div>
+                <label>password</label>
+                <input type="password" required placeholder="password" name="password">
+            </div>
+            <br>
+            <div>
+                <label>color</label>
+                <input type="color" value="color">
+            </div>
+            <br>
+            <div>
+                <label>Range</label>
+                <input type="range" namae="Range" min="0" max="100" step="20" value="20">
+            </div>
+            <br>
+            <div>
+                <!--value it's a parameter to initial value-->
+                <label>Number</label>
+                <input type="number" name="number" min="10" max="100" value="10" step="20">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                 <!--value -> it's an older value appear for user-->
+                <input type="email" requiredplaceholder="enter your email" valu="abdowagieh@gmail.com" name ="email">
+            </div>
+            <br>
+            <input type="submit" value="save">
+            <input type="reset" value="reset">
+        </form>
+        
+    </body>
+</html>
