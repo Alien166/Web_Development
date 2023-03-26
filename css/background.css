@@ -6,4 +6,11 @@ h1 {
     background-repeat : repeat;    /* defualt value is no repeat*/
     background-repeat : repeat-x;  /* repeat ofky*/
     background-repeat : repeat-y;  /*repeat omwdy*/
+    background-attachment: fixed;   /*to fix background when scroll*/
+    background-position: right bottom;  /*to manage position of background*/
+    background-position: 100% 50%;       /*to manage position of background bt percent*/
+    background-size: cover;           /*to cover position of background*/
+    background-size: contain;         /*to cover  position with strech of background*/
+    background-size: 100% 50%;        /*this size of this  background*/
+
 }
