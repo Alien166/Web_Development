@@ -1,0 +1,6 @@
+h1 {
+    border-width: 10px;
+    border-color: rgb(255, 174, 0);
+    border-style: solid dashed outset dotted;
+    border: 10px solid orange;  /* it's a shorter code*/
+}
