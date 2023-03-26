@@ -1,0 +1,8 @@
+h1 {
+    outline-width: 10px;
+    outline-style:  solid;
+    outline-color: black;
+    outline: 10px solid red;
+
+
+}
