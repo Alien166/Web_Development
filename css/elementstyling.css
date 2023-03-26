@@ -1,0 +1,9 @@
+.p1 {                        /* will be access on all p1 only  */
+    color: rgb(17, 196, 98);
+    font-size: smaller;
+}
+
+.p2 {                          /* will be access on all p2 only  */
+    color: aqua;
+    font-size: medium;
+}
