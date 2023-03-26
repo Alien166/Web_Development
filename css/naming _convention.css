@@ -1,9 +1,9 @@
-.test-1 {                        
+.test-1 {                         /* kabab case*/
     color: rgb(17, 196, 98);
     font-size: smaller;
 }
 
-.test_2 {                         
+.test_2 {                          /* snake case*/       
     color: aqua;
     font-size: medium;
 }
