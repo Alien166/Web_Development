@@ -1,0 +1,6 @@
+h1 {
+    background-color : cadetblue;     /* hexadecimal color */
+    background-color : rgb(0, 0, 255 /50%); /* rgb color */
+    background-color : red;               /*  color name */
+
+}
