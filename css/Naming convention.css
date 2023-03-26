@@ -1,0 +1,14 @@
+.test-1 {                        
+    color: rgb(17, 196, 98);
+    font-size: smaller;
+}
+
+.test_2 {                         
+    color: aqua;
+    font-size: medium;
+}
+
+.1test {                          /* wrong convention  */
+    color: aqua;
+    font-size: medium;
+}
